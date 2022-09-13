@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../styles/newblog.css" rel="stylesheet" type="text/css">
+        <title>Javascript & Dom</title>
+    </head>
+    <body>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="../styles/blog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="target" class="heading-container">
+      <h1 class="heading">Javascript & Dom</h1>
+      <a class="home" href="../landingPage.html"><p>Home</p></a>
+      <div class="dropdown">
+        <button class="dropbtn robofont"><p>Tech Pages</p></button>
+         <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="html-css.html">Classes & IDS</a>
+          <a href="javascript-dom.html">Javascript & DOM</a>
+          <a href="problem-solving.html">Problem Solving</a>
+        </div>
+      </div>
+      <h2 class="subheading">My understanding of JS and the Dom</h2>
+    </div>
+    <h2 class="content-heading" > Sprint 2 tech document</h2>
+
+    <div class="pageWrapper">
+      <h3 class="question" >An analogy to describe JavaScript and its relationship to HTML and CSS.</h2>
+       <div class="robofont">
+         <br>
+          <P>
+            Let's say we're building a flat-pack, In the same way that HTML contains the text, image, and other building
+            pieces for your website. Each flat-pack box comes with an instruction manual containing  both text and images 
+            that demonstrate how to put the flat-pack together.  Using the instructions and materials supplied, we can construct 
+            our flatpack similarly to how you would use CSS to design items on a website that might need to be aligned, displayed ,
+            or positioned in a particular location in order to function (assuming we've just put together a cabinet  we are then, 
+            blessed with doors that might have knobs or handles which open and close adding functionality to our cabinet), 
+            similarly to how Javascript can add functionality or change elements to our HTML document via the dom.
+          </P>
+          <br>
+             <img id="holytrio" src="../Images/holyTrio.gif">
+             <h4 class="question">Example of HTML, CSS & JavaScript used together</h3>
+          </div>
+        <br>
+        <h3 class="question" >Explain control flow and loops using an example process from everyday life.</h2>
+          <br>
+          <p>
+           The order and sequence for when our code is run in a script is known as the control flow. Control flow is 
+           needed if a piece of code needs to be run repeatedly but with a different value each time.  Furthermore for as 
+           long as a condition is met, a loop executes the same code repeatedly. Using breakfast as a metaphor example process,
+           (assuming you're not a hobbit and only have breakfast once a day), you're daily breakfast would be an example of 
+           control flow , but if you are a hobbit and partake in consumption of multiple breakfasts meals you could compare 
+           that to looping….
+          </p>
+        <br>
+        <h3 class="question" >Describe what the DOM is and an example of how you might interact with it.</h2>
+          <br>
+          <p>
+            The Document Object Model otherwise known as DOM, is a programming interface for HTML web documents. 
+            The program allows us to to create change or remove elements from a web document giving our page more functionality,
+            making it more dynamic. We can access these elements in the HTML document and make changes to them using JavaScript.
+  
+            The DOM consists of a tree structure of nested nodes created by the browser that makes it possible for programming
+            languages to readily access the HTML structure. This tree structure is often referred to as the DOM tree , commonly
+            likened to an ancient family tree, which includes parents, children, and siblings , (depending on their relationship
+            to other nodes, all nodes will sit somewhere in that family category, parents , children ect).</p>
+           <br>
+             <img id="domtree" src="../Images/domtree.png">
+             <h4 class="question">Example of the DOM tree layout</h3>
+        <br>
+        <h3 class="question" >Differences between accessing data from arrays and objects.</h2>
+          <br>
+          <p>
+            Arrays can access data using index, whereas Objects access data using strings, in the picture below is an example
+            i've put together.
+          </p>
+         <br>
+           <img id="arrExample" src="../Images/arraysVsobjects.png">
+            <h4 class="question">Accessing an Array example</h3>
+        </div>
+        <br>
+            <h2 class="question" >Explain what functions are and why they are helpful.</h2>
+            <br>
+              <p>
+                A function is a block of code that works almost like a mini-program. It's
+                used to perform certain actions that only run when it's called/activated. Functions 
+                can also be used multiple times, rather than writing the same code out multiple times 
+                you can condense it it into a function saving you a lot of time. In the images below,
+                I've included examples from the scrimba course. Rather than writing out console.log,
+                we condensed it into a function, called/activated it with countdown()(key). The outcome is the
+                same without the hassle of having to write out console. log several times, while also 
+                cleaning up our code .
+              </p>
+          <div class="pageWrapper" class="row">
+            <div class="column">
+              <img src="../Images/functionseg1.png" alt="function example 1" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="../Images/functionseg2.png" alt="function example 2" style="width:100%">
+            </div>
+            <div>
+              <br>
+            <h4 class="question">Function example </h3>
+            </div>
+          <br>     
+    </div>
+ 
+    <button class="scrollToTopBtn">Top</button>
+    <div class="footer">
+      <ul class="nav-items">
+        <li>
+          <a href="https://github.com/fredk-pene"
+          target=”_blank” ><img class="logo" src="../images/download.png" alt="github"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="/main.js"></script>
+  </html>

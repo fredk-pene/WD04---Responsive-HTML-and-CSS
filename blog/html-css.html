@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../styles/newblog.css" rel="stylesheet" type="text/css">
+        <title>Classes & Id's</title>
+    </head>
+    <body>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="../styles/blog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Trocchi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="target" class="heading-container">
+      <h1 class="heading">Html & Css</h1>
+      <a class="home" href="../landingPage.html"><p>Home</p></a>
+      <div class="dropdown">
+        <button class="dropbtn robofont"><p>Tech Pages</p></button>
+         <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="html-css.html">Classes & IDS</a>
+          <a href="javascript-dom.html">Javascript & DOM</a>
+          <a href="problem-solving.html">Problem Solving</a>
+        </div>
+      </div>
+      <h2 class="subheading">Classes & Id's use case</h2>
+    </div>
+    <h2 class="content-heading" > Sprint 1 tech document</h2>
+  
+    <div class="pageWrapper">
+      <h3 class="question" > What are the best practices associated with using classes vs. ids?</h2>
+       <P>
+        We would use the <strong>CLASS</strong> attribute to specify
+        a style for a mixed group of element tags giving them all styles
+        they will then have in common. It is possible to implement multiple classes
+        in a single class tag (examples in picture bellow). It's important to rememeber
+        when you insert your class name to a class attribute that you don't add spaces
+        as it would be read as a different class, making the inteded one void showing the default style results.
+       </P>
+       <br>
+       <p>
+        We would use the <strong>ID</strong> attribute when we have a single element on our page
+        that we want to hookup to a link or styled in a specific way seperate from the <strong>class</strong>
+        styles. It's considered good practise to not use the same ID tag for multiple different
+        element tags on the same html document as it's supposed to be unique to a specific element, and you would
+        use the class attribute for the purpose of styling more than a single element. Id tags
+        also have a higher specificity/importance over the class attribute. For example, if you 
+        were to have an ID and class attribute both set to change the font color, then the ID tag by default
+        of the ID style will show in the result again due to higher specificity, (examples pictured).
+       </p>
+       <br>
+            <!-- <div class="img"> -->
+             <img class ="htmlCSS" src="../Images/screenshot1.png">
+             <h3 class="question">Code Example </h3>
+            </div>
+          </div>
+        </div>
+        <br>
+            <!-- <div class="img"> -->
+             <img class ="htmlCSS" src="../Images/screenshot2.png">
+             <h3 class="question">Code Result Example</h3>
+             <br>
+            </div>
+          </div>
+        </div>
+    </div>
+    <button class="scrollToTopBtn">Top</button>
+    <div class="footer">
+      <ul class="nav-items">
+        <li>
+          <a href="https://github.com/fredk-pene"
+          target=”_blank” ><img class="logo" src="../images/download.png" alt="github"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="/main.js"></script>
+  </html>
